@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(217, 238, 125);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    float: inline-end;
+  }
+
+.elemento_horizontal {
+    
+    display: inline;
+}
