@@ -7,7 +7,16 @@ header {
     float: inline-end;
   }
 
-.elemento_horizontal {
-    
-    display: inline;
+.divhorario {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.divrepara {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.divcarrusel{
+    margin-top: 70px;
 }
