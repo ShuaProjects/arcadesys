@@ -1,8 +1,8 @@
 <?php
 include "conexion.php";
 
-if($_POST){
-            $consola= $_POST['consola']; 
+if($_GET){
+            $consola= $_GET['consola']; 
             $query = "SELECT * FROM producto_arcade WHERE Consola='$consola'";
             $resultado = $conecta->query($query);
             while($row = $resultado->fetch_assoc()) {
@@ -32,13 +32,8 @@ if($_POST){
 <body>
     <h1>juegos por consola</h1>
     <section id="container">
-    <form action="" method="post">
-        <p>
-            Consola en la que desea buscar <br>
-            <input type="text" name="consola" id="consola">
-            <br>
-            <input type="submit" value="Buscar">
-        </p>
+    <form action="" method="GET">
+        
               
 </body>
 </html>
