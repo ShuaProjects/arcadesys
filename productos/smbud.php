@@ -1,12 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" type="text/css" href="../estilos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ArcadeSys</title>
+        <title>Super Mario Bros U Deluxe</title>
     </head>
     
     <body>
@@ -16,7 +17,7 @@
     
                 <div class="row">
                     <div class="col-md-auto">
-                        <img src="img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
+                        <img src="../img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
                     </div>
     
                     <div class="col">
@@ -133,35 +134,91 @@
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            <div class="col">
-                <img src="../img/catalogs/nintendo/ark.jpg" alt="Ark_feo">
+        <div class="container" id="contenejuegos" style="margin-top: 200px; margin-bottom: 200px;">
+            <div class="row">
+                <div class="col">
+                    <img src="../img/catalogs/nintendo/smbud.jpg" alt="Spider-Man">
+                </div>
+                
+                <div class="col" >
+                    <h4>
+                        Super Mario Bros U Deluxe
+                    </h4>
+                    <br>
+                    <h5>
+                        Consola: 
+                    </h5>
+                    <h6>
+                        Nintendo Switch
+                    </h6>
+                    <br>
+                    <h5>
+                        Precio: 
+                    </h5>
+                    <h6>
+                        $450
+                    </h6>
+                    <br>
+                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                </div>
             </div>
-            <div class="col" >
-                <h4>
-                    Ark
-                </h4>
-                <br>
-                <h5>
-                    Consola: 
-                </h5>
-                <h6>
-                    Nintendo Switch
-                </h6>
-                <br>
-                <h5>
-                    Precio: 
-                </h5>
-                <h6>
-                    $1400
-                </h6>
-                <br>
-                <button type="button">Agregar al Carrito</button>
-            </div>
-            
         </div>
     
-    
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <div class="divhorario">
+                        <h5>Nuestro Horario</h5>
+                        <p>Lunes a Viernes de 9AM a 2PM y de 4PM a 9PM</p>
+                        <p>Sabados de 10AM a 3PM </p>
+                        <p>Descansamos los domingos</p>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Siguenos en redes!</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com/ArcadeColima/">Facebook</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+
+    </footer>
 
 
 
