@@ -3,7 +3,7 @@
     define("BASE_DATOS", "arcade");
     define("USUARIO", "root");
     define("PASSWORD", "");
-    define("PUERTO", "8080");
+    define("PUERTO", "3306");
 
     try {
         $conecta = mysqli_connect(SERVIDOR, USUARIO, PASSWORD, BASE_DATOS, PUERTO);
