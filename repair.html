@@ -136,7 +136,7 @@
     </nav>
 
     <div>
-        <div id = "formReparar" style="margin-top:120px; margin-bottom: 120px; width:50%;border:3px solid black;padding:10px;">
+        <div id = "formReparar" style= "margin: 0 auto; margin-top:120px; margin-bottom: 120px; width:50%;border:3px solid black;padding:10px;">
             <form name="myform" method="post" onsubmit="return validacion()">
                 <div>
                     <label>Nombre Completo</label>
@@ -159,7 +159,12 @@
                     <label>Danos detalles de tu problema: </label>
                     <textarea class="form-control form-control-lg" id="inputComentarios" rows="3"></textarea>
                 </div>
-                <button class="" type="submit">Enviar</button>
+                <button style="margin-top: 10px" onclick="myFunction()" class="btn btn-dark" type="submit" > <a href="./index.html">Enviar</a> </button>
+                    <script>
+                    function myFunction() {
+                    alert("Gracias por tu confianza, en breves nos comunicaremos contigo ");
+                    }
+                    </script>
             </form>
         </div>
     </div>

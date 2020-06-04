@@ -1,28 +1,4 @@
-<?php
-include "conexion.php";
-
-if($_GET){
-            $consola= $_GET['consola']; 
-            $query = "SELECT * FROM producto_arcade WHERE Consola='$consola'";
-            $resultado = $conecta->query($query);
-            while($row = $resultado->fetch_assoc()) {
-            ?>
-               <tr>
-                        <td> <?php echo $row ['Nombre_Producto']; ?> </td> 
-                        <td> <?php echo" ";?> </td> 
-                        <td> <?php echo $row ['Precio']; ?></td> 
-                        <td> <?php echo" ";?> </td> 
-                        <td> <?php echo $row ['Consola']; ?></td> 
-                        <td> <?php echo" ";?> </td> 
-                        <td><img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>"/></td>  
-                        <td> <?php echo"<br>";?> </td>               
-                </tr>
-                        <?php
-            }
-        }
-                        ?>
-                        
-                        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -40,7 +16,7 @@ if($_GET){
 
             <div class="row">
                 <div class="col-md-auto">
-                    <img src="img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
+                    <img src="../img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
                 </div>
 
                 <div class="col">
@@ -100,8 +76,8 @@ if($_GET){
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./juegos.php?consola=Play Station 4">Videojuegos</a>
-                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio PS">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Accesorio PS">Accesorios</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola PS3">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
@@ -112,8 +88,8 @@ if($_GET){
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./juegos.php?consola=Play Station 3">Videojuegos</a>
-                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio PS">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Accesorio PS">Accesorios</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola PS3">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
@@ -125,8 +101,8 @@ if($_GET){
                     <form action="" method="GET"></form>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a id="XboxOne" class="dropdown-item" href="./juegos.php?consola=Xbox One">Videojuegos</a>
-                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio one">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Accesorio one">Accesorios</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola Xbox one">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
@@ -137,8 +113,8 @@ if($_GET){
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./juegos.php?consola=Xbox 360">Videojuegos</a>
-                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio 360">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Accesorio 360">Accesorios</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola Xbox 360">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
@@ -149,8 +125,8 @@ if($_GET){
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./juegos.php?consola=Nintendo Switch">Videojuegos</a>
-                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio Switch">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Accesorio Switch">Accesorios</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola Switch">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
