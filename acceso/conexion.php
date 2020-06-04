@@ -8,7 +8,6 @@
     try {
         $conecta = mysqli_connect(SERVIDOR, USUARIO, PASSWORD, BASE_DATOS, PUERTO);
         if(!mysqli_connect_errno()){
-           echo "Conexión exitosa!";
             //echo"<br>";
             //Consulta
             //$query = "SELECT * FROM cliente";
