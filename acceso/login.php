@@ -1,4 +1,10 @@
 <?php
+session_start();
+if(!empty($_SESSION['active'])){
+    header("location: ../index.html");
+    
+
+}else{
 
     $alert= '';
     if(!empty($_POST)){
@@ -18,7 +24,7 @@
             if($result > 0){
                 $data = mysqli_fetch_array($query);
                 echo 'conexion exitosa';
-                session_start();
+            
                 $_SESSION['active'] = true;
                 $_SESSION['iduser'] = $data['Id_Cliente'];
                 $_SESSION['Nombre'] = $data['Nombre'];
@@ -27,6 +33,7 @@
                 header("location: ../index.html");
             }else{
                     $alert = 'El usuario o la contraseña es incorreca'; 
+                    session_destroy();
                 }
 
 
@@ -36,7 +43,7 @@
 
         
     }
-
+}
             
    
 ?>
