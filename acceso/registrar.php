@@ -1,13 +1,14 @@
 <?php
 $alert2= '';
+echo "<h1>Bievenido al menu registrar</h1>";
 if(!empty($_POST)){
 
-    if(empty($_POST['email']) || empty($_POST['contraseña']))
+    if(empty($_POST['email']) || empty($_POST['pass']))
     {
         $alert2 = 'Por favor rellene todos los campos';
 
         }else{
-            echo "<h1>Bievenido al menu registrar</h1>";
+            
             include "conexion.php";
             if($_POST){
                 $idcliente= $_POST['id_cliente'];   
@@ -28,8 +29,10 @@ if(!empty($_POST)){
 
                 if(!$resultado || empty($resultado)){
                     echo 'Error al registrarse';
+
                 }else{
                     echo 'registro completado';
+                    header("location: login.php");
                 }
             }
     }  
