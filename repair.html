@@ -10,44 +10,216 @@
     <title>Reparaciones</title>
 </head>
 
-<header>
-    <div class="container">
+<body>
 
-        <div class="row">
-            <div class="col-md-auto">
-                <img src="img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
-            </div>
+    <header>
+        <div class="container">
 
-            <div class="col">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Todas las categorias</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
-                            <a class="dropdown-item" href="#">Videojuegos</a>
-                            <div role="separator" class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Articulos reacondicionados</a>
+            <div class="row">
+                <div class="col-md-auto">
+                    <img src="img/arcalogo.jpeg" alt="ARCADE" class="rounded float-left" height="90" width="90">
+                </div>
+
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Todas las categorias</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Accesorios</a>
+                                <a class="dropdown-item" href="#">Consolas</a>
+                                <a class="dropdown-item" href="#">Videojuegos</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Articulos reacondicionados</a>
+                            </div>
+                        </div>
+
+                        <input class="form-control" type="text" placeholder="Buscar articulos...">
+
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-dark">Buscar</button>
                         </div>
                     </div>
-
-                    <input class="form-control" type="text" placeholder="Buscar articulos...">
-
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-dark">Buscar</button>
-                    </div>
                 </div>
+                
+            </div>
+            <div class="row-md-right">
+                <h6>
+                    <a href="./acceso/login.php">Iniciar sesion</a>
+                </h6>
+                <h6>
+                    <a href="./acceso/salir.php" >Cerrar sesion</a>
+                </h6>
             </div>
         </div>
-        <div class="row">
-            
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Todas las categorias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Videojuegos</a>
+                        <a class="dropdown-item" href="#">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PS4
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./acceso/juegos.php?consola=Play Station 4">Videojuegos</a>
+                        <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio PS">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PS3
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
+                        <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio PS">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        XBOX One
+                    </a>
+                    <form action="" method="GET"></form>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a id="XboxOne" class="dropdown-item" href="./acceso/juegos.php?consola=Xbox One">Videojuegos</a>
+                        <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio one">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        XBOX 360
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
+                        <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio 360">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nintendo Switch
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
+                        <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio Switch">Accesorios</a>
+                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item">Articulos reparados</a>
+                    </div>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+    <div>
+        <div id = "formReparar" style="margin-top:120px; margin-bottom: 120px; width:50%;border:3px solid black;padding:10px;">
+            <form name="myform" method="post" onsubmit="return validacion()">
+                <div>
+                    <label>Nombre Completo</label>
+                    <input class="form-control form-control-lg" id="inputNombre">
+                </div>
+                <div>
+                    <label>Consola</label>
+                    <input class="form-control form-control-lg" id="inputApellido">
+                </div>
+    
+                <div>
+                    <label>Email </label>
+                    <input class="form-control form-control-lg" id="inputEmail">
+                </div>
+                <div >
+                    <label>Numero de telefono</label>
+                    <input class="form-control form-control-lg" id="inputPassword">
+                </div>
+                <div >
+                    <label>Danos detalles de tu problema: </label>
+                    <textarea class="form-control form-control-lg" id="inputComentarios" rows="3"></textarea>
+                </div>
+                <button class="" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <div class="divhorario">
+                    <h5>Nuestro Horario</h5>
+                    <p>Lunes a Viernes de 9AM a 2PM y de 4PM a 9PM</p>
+                    <p>Sabados de 10AM a 3PM </p>
+                    <p>Descansamos los domingos</p>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Siguenos en redes!</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.facebook.com/ArcadeColima/">Facebook</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
 
     </div>
-</header>
 
-<body>
+</footer>
 
 </body>
 
