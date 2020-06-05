@@ -135,16 +135,14 @@
     </nav>
     
     <h1></h1>
-
-<div class="container">
-
     <div class="row">
         <?php
             include "conexion.php";
 
             if($_GET){
-            $consola= $_GET['consola']; 
-            $query = "SELECT * FROM producto_arcade WHERE Consola like '$consola'";
+            $prin=$_GET['ini'];
+            $fina=$_GET['fin'];
+            $query = "SELECT * FROM producto_arcade WHERE Id_Producto BETWEEN '$prin' and '$fina'";
             $resultado = $conecta->query($query);
             while($row = $resultado->fetch_assoc()) {
             ?>
@@ -163,6 +161,7 @@
         }
                         ?>
     </div>
+
 </div>
 
 <!-- Footer -->
