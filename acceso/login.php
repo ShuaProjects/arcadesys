@@ -70,15 +70,18 @@ if(!empty($_SESSION['active'])){
         </div>
     </header>
 <body>
+    <center>
     <section style = "margin-top = 200px" id="container">
     <form action="" method="post">
+        <div class="foto"></div>
+        <div></div>
         <p>
             Email: <br>
-            <input type="text" name="email" id="email">
+            <input class="id" type="text" name="email" id="email">
         </p>
         <p>
             Contraseña: <br>
-            <input type="text" name="contraseña" id="contraseña"><br>
+            <input class="id" type="text" name="contraseña" id="contraseña"><br>
             <div class="alert"><?php echo isset($alert) ? $alert : ''; ?></div>
             <input type="submit" value="Entrar">
             <br>
@@ -86,10 +89,11 @@ if(!empty($_SESSION['active'])){
         </p>
         
     </form>
-    </section>  
-    
     <a href="registrar.php"><input type="submit" value="Registrarme">
     </a>
+    </section>  
+    </center>
+    
 
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">

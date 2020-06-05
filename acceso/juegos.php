@@ -156,7 +156,7 @@
                         <p><?php echo '$'; ?> <?php echo $row ['Precio']; ?></p>
                         <p><?php echo $row ['Consola']; ?></p>
                         
-                        <a href="id=<?php echo $row ['Id_Producto']; ?>.php" class="btn btn-primary">Añadir al carrito</a>
+                        <a href="id=<?php echo $row ['Id_Producto']; ?>.php" class="btn btn-primary">Ver Producto</a>
                     </div>
                 </div>
 
