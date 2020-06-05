@@ -159,7 +159,8 @@
                         $700
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritojus4xbox.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>

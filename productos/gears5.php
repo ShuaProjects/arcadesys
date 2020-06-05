@@ -159,7 +159,8 @@
                         $1200
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritogears5.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>

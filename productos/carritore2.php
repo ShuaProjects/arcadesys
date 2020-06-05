@@ -56,8 +56,8 @@
     <?php
 include "../acceso/conexion.php";
 
-$nombre = "Resident evil 2 Rimeik";
-$presio = 1500;
+$nombre = "Resident evil 2 Remake";
+$presio = 900;
     $insertar = "INSERT INTO carrito(Nombre,Precio) 
                 VALUES ('$nombre','$presio')";
 
