@@ -45,10 +45,10 @@
                 </div>
                 <div class="row-md-right">
                     <h6>
-                        <a href="../acceso/login.php">Iniciar sesion</a>
+                        <a href="./acceso/login.php">Iniciar sesion</a>
                     </h6>
                     <h6>
-                        <a href="../acceso/salir.php" >Cerrar sesion</a>
+                        <a href="./acceso/salir.php" >Cerrar sesion</a>
                     </h6>
                 </div>
             </div>
@@ -56,8 +56,8 @@
     <?php
 include "../acceso/conexion.php";
 
-$nombre = "Final Fantasy 7";
-$presio = 600;
+$nombre = "Doom";
+$presio = 300;
     $insertar = "INSERT INTO carrito(Nombre,Precio) 
                 VALUES ('$nombre','$presio')";
 

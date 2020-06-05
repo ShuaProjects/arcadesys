@@ -155,7 +155,8 @@
                         <h5 class="card-title"><?php echo $row ['Nombre_Producto']; ?></h5>
                         <p><?php echo '$'; ?> <?php echo $row ['Precio']; ?></p>
                         <p><?php echo $row ['Consola']; ?></p>
-                        <a href="./carrito.php?id=<?php echo $row ['Id_Producto']; ?>" class="btn btn-primary">Añadir al carrito</a>
+                        
+                        <a href="id=<?php echo $row ['Id_Producto']; ?>.php" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
 

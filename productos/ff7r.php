@@ -159,7 +159,7 @@
                         $600
                     </h6>
                     <br>
-                    <form action="carritore2.php">
+                    <form action="carritoff7.php">
     <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>

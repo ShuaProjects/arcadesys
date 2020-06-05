@@ -159,7 +159,8 @@
                         $1000
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritofifa.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>

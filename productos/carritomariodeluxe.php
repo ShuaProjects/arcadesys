@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../estilos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Doom</title>
+        <title>Super Mario U Deluxe</title>
     </head>
     
     <body>
@@ -45,10 +44,10 @@
                 </div>
                 <div class="row-md-right">
                     <h6>
-                        <a href="../acceso/login.php">Iniciar sesion</a>
+                        <a href="./acceso/login.php">Iniciar sesion</a>
                     </h6>
                     <h6>
-                        <a href="../acceso/salir.php" >Cerrar sesion</a>
+                        <a href="./acceso/salir.php" >Cerrar sesion</a>
                     </h6>
                 </div>
             </div>
@@ -56,8 +55,8 @@
     <?php
 include "../acceso/conexion.php";
 
-$nombre = "Final Fantasy 7";
-$presio = 600;
+$nombre = "Super Mario U Deluxe";
+$presio = 450;
     $insertar = "INSERT INTO carrito(Nombre,Precio) 
                 VALUES ('$nombre','$presio')";
 
