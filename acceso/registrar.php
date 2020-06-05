@@ -1,6 +1,5 @@
 <?php
 $alert2= '';
-echo "<h1>Bievenido al menu registrar</h1>";
 if(!empty($_POST)){
 
     if(empty($_POST['email']) || empty($_POST['pass']))
@@ -40,55 +39,68 @@ if(!empty($_POST)){
 }
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:skyblue">
     <section id="container">
+
     <form action="" method="post">
+        <center>
+            <div class="bienve">
+            <h1>Bievenido al menu registrar</h1>
+            </div>
+            <div class="imagen">  
+                <img class="as" src="../img/regis.jp" align="center" alt="">
+        </div>
         <p>
             Id cliente:<br>
-            <input type="text" name="id_cliente" id="id_cliente">
+            <input class="id" type="text" name="id_cliente" id="id_cliente">
         </p>
         <p>
             Nombre: <br>
-            <input type="text" name="nombre" id="nombre"><br> 
+            <input class="nom"type="text" name="nombre" id="nombre"><br> 
         </p>
         <p>
             Apellido: <br>
-            <input type="text" name="apellido" id="apellido"><br> 
+            <input class="ape" type="text" name="apellido" id="apellido"><br> 
         </p>
         <p>
             Telefono: <br>
-            <input type="text" name="telefono" id="telefono"><br> 
+            <input class="tel" type="text" name="telefono" id="telefono"><br> 
         </p>
         <p>
             E-mail: <br>
-            <input type="text" name="email" id="email"><br> 
+            <input class="email" type="text" name="email" id="email"><br> 
         </p>
         <p>
             Domicilio: <br>
-            <input type="text" name="domicilio" id="domicilio"><br> 
+            <input class="domi" type="text" name="domicilio" id="domicilio"><br> 
         </p>
         <p>
             Ciudad: <br>
-            <input type="text" name="ciudad" id="ciudad"><br> 
+            <input class="ciu" type="text" name="ciudad" id="ciudad"><br> 
         </p>
         <p>
             Codigo Zip: <br>
-            <input type="text" name="codigo_zip" id="codigo_zip"><br> 
+            <input class="codigo" type="text" name="codigo_zip" id="codigo_zip"><br> 
         </p>
         <p>
             Contraseña: <br>
-            <input type="text" name="pass" id="pass"><br> 
+            <input class="contra" type="text" name="pass" id="pass"><br> 
         </p>
         <input type="submit" value="Guardar">
             <br>
             <div class="alert2"><?php echo isset($alert2) ? $alert2 : ''; ?></div>
+            </center>
  
 </body>
 </html>

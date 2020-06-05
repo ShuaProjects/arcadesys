@@ -7,6 +7,84 @@ header {
     float: inline-end;
   }
 
+  .foto{
+    background-image: url("../img/log.png");
+    width:300px;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+  .imagen{
+    background-image: url("../Proyecto/Imagen/Encabezado.png");
+    width:900px;
+    height: 260px;
+
+  }
+  .bienve{
+    background-color: white;
+    color: black;
+    width: 900px;
+    height: 30px;
+    
+  }
+  .id{
+    
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.nom{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.ape{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.tel{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+
+.email{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.domi{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.ciu{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.codigo{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+.contra{
+
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+}
+   
+
   footer {
       background-color: rgb(45, 44, 50);
     color: white;
@@ -43,6 +121,8 @@ header {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+
+
 
 input[type=submit]{
     background-color: black;
