@@ -8,7 +8,7 @@
     try {
         $conecta = mysqli_connect(SERVIDOR, USUARIO, PASSWORD, BASE_DATOS, PUERTO);
         if(!mysqli_connect_errno()){
-            //echo"<br>";
+            
             //Consulta
             //$query = "SELECT * FROM cliente";
              //$query = "SELECT * FROM cliente WHERE email='er@gmail.com' and password_c='e123'";

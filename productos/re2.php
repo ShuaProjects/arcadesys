@@ -1,21 +1,3 @@
-
-<?php
-    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['someAction']))
-    {
-        func();
-    }
-    function func()
-    {
-        include "../acceso/conexion.php";  
-        if(empty($_POST)){
-        $nombre = $_POST["esident evil 2 Remake"];
-        $presio = $_POST[8];
-         $insertar = "INSERT INTO carrito(Nombre,Precio) 
-                VALUES ('$nombre','$presio')";  
-        }
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -176,8 +158,9 @@
                         $900
                     </h6>
                     <br>
-                    <form action="re2.php" method="post">
-    <input type="submit" name="someAction" value="Carrito" />
+                    <form action="carritore2.php">
+    <input type="submit" value="Agregar al carrito" />
+</form>
 </form>
 
                     
