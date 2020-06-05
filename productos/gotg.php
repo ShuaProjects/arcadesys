@@ -159,7 +159,8 @@
                         $500
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritogotg.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>
