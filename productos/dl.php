@@ -64,9 +64,9 @@
                             Todas las categorias
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Videojuegos</a>
-                            <a class="dropdown-item" href="#">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                            <a class="dropdown-item" href="../acceso/todosjuegos.php?ini=7000&fin=7800">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/accesorios.php?consola=Accesorio%">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/accesorios.php?consola=consola%">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
@@ -76,9 +76,9 @@
                             PS4
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./acceso/juegos.php?consola=Play Station 4">Videojuegos</a>
-                            <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio PS">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 4">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS4">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
@@ -88,9 +88,9 @@
                             PS3
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
-                            <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio PS">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS3">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
@@ -101,9 +101,9 @@
                         </a>
                         <form action="" method="GET"></form>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a id="XboxOne" class="dropdown-item" href="./acceso/juegos.php?consola=Xbox One">Videojuegos</a>
-                            <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio one">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                           <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox One">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio one">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox one">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
@@ -113,9 +113,9 @@
                             XBOX 360
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
-                            <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio 360">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio 360">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox 360">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
@@ -125,9 +125,9 @@
                             Nintendo Switch
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
-                            <a class="dropdown-item" href="./acceso/accesorios.php?consola=Accesorio Switch">Accesorios</a>
-                            <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="../acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio Switch">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Switch">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
                     </li>
