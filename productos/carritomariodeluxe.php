@@ -43,11 +43,11 @@
                     
                 </div>
                 <div class="row-md-right">
-                    <h6>
-                        <a href="./acceso/login.php">Iniciar sesion</a>
+                <h6>
+                        <a href="../acceso/login.php">Iniciar sesion</a>
                     </h6>
                     <h6>
-                        <a href="./acceso/salir.php" >Cerrar sesion</a>
+                        <a href="../acceso/salir.php" >Cerrar sesion</a>
                     </h6>
                 </div>
             </div>

@@ -44,7 +44,7 @@
                     
                 </div>
                 <div class="row-md-right">
-                    <h6>
+                <h6>
                         <a href="../acceso/login.php">Iniciar sesion</a>
                     </h6>
                     <h6>
