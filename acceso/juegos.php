@@ -45,10 +45,10 @@
             </div>
             <div class="row-md-right">
                 <h6>
-                    <a href="./acceso/login.php">Iniciar sesion</a>
+                    <a href="./login.php">Iniciar sesion</a>
                 </h6>
                 <h6>
-                    <a href="./acceso/salir.php" >Cerrar sesion</a>
+                    <a href="./salir.php" >Cerrar sesion</a>
                 </h6>
             </div>
         </div>
@@ -153,7 +153,7 @@
                 <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>"/>
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row ['Nombre_Producto']; ?></h5>
-                        <p><?php echo $row ['Precio']; ?></p>
+                        <p><?php echo '$'; ?> <?php echo $row ['Precio']; ?></p>
                         <p><?php echo $row ['Consola']; ?></p>
                         <a href="./carrito.php?id=<?php echo $row ['Id_Producto']; ?>" class="btn btn-primary">Añadir al carrito</a>
                     </div>
