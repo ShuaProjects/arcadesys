@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../estilos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Call of Duty Modern Warfare</title>
+        <title>Minecraft</title>
     </head>
     
     <body>
@@ -50,6 +50,9 @@
                     <h6>
                         <a href="./acceso/salir.php" >Cerrar sesion</a>
                     </h6>
+                    <h6>
+                    <a href="vercarrito.php" >Ver carrito</a>
+                </h6>
                 </div>
             </div>
         </header>
@@ -89,7 +92,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS3">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -102,7 +105,7 @@
                         <form action="" method="GET"></form>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox One">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio one">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio one">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox one">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -114,7 +117,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio 360">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio 360">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox 360">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -126,7 +129,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio Switch">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio Switch">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Switch">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -137,12 +140,12 @@
         <div class="container" id="contenejuegos" style="margin-top: 200px; margin-bottom: 200px;">
             <div class="row">
                 <div class="col">
-                    <img src="../img/catalogs/xbox/codmw.jpg" alt="Spider-Man">
+                    <img src="../img/catalogs/xbox/mine.jpg" alt="Spider-Man">
                 </div>
                 
                 <div class="col" >
                     <h4>
-                        Call of Duty Modern Warfare
+                        Minecraft
                     </h4>
                     <br>
                     <h5>
@@ -156,10 +159,11 @@
                         Precio: 
                     </h5>
                     <h6>
-                        $800
+                        $300
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritocod.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>
