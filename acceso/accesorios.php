@@ -63,9 +63,9 @@
                         Todas las categorias
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Videojuegos</a>
-                        <a class="dropdown-item" href="#">Accesorios</a>
-                        <a class="dropdown-item" href="#">Consolas</a>
+                        <a class="dropdown-item" href="./todosjuegos.php?ini=7000&fin=7800">Videojuegos</a>
+                        <a class="dropdown-item" href="./accesorios.php?consola=Accesorio%">Accesorios</a>
+                        <a class="dropdown-item" href="./accesorios.php?consola=consola%">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
