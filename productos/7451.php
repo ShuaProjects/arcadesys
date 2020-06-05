@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../estilos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Resident Evil 2 Remake</title>
+        <title>The Crew</title>
     </head>
     
     <body>
@@ -136,12 +137,12 @@
         <div class="container" id="contenejuegos" style="margin-top: 200px; margin-bottom: 200px;">
             <div class="row">
                 <div class="col">
-                    <img src="../img/catalogs/ps4/re2de.jpg" alt="Spider-Man">
+                    <img src="../img/catalogs/ps4/crew.jpg" alt="fifa20">
                 </div>
                 
                 <div class="col" >
                     <h4>
-                        Resident Evil 2 Remake
+                        The Crew
                     </h4>
                     <br>
                     <h5>
@@ -155,15 +156,11 @@
                         Precio: 
                     </h5>
                     <h6>
-                        $900
+                        $800
                     </h6>
                     <br>
-                    <form action="carritore2.php">
+                    <form action="carritothecrew.php">
     <input type="submit" value="Agregar al carrito" />
-</form>
-</form>
-
-                    
                 </div>
             </div>
         </div>

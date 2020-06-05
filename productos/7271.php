@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../estilos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Resident Evil 2 Remake</title>
+        <title>Dying Light</title>
     </head>
     
     <body>
@@ -136,34 +137,29 @@
         <div class="container" id="contenejuegos" style="margin-top: 200px; margin-bottom: 200px;">
             <div class="row">
                 <div class="col">
-                    <img src="../img/catalogs/ps4/re2de.jpg" alt="Spider-Man">
+                    <img src="../img/catalogs/xbox/dl.jpg" alt="Ark_feo">
                 </div>
                 
                 <div class="col" >
                     <h4>
-                        Resident Evil 2 Remake
+                        Dying Light
                     </h4>
                     <br>
                     <h5>
                         Consola: 
                     </h5>
                     <h6>
-                        PS4
+                        Xbox One
                     </h6>
                     <br>
                     <h5>
                         Precio: 
                     </h5>
                     <h6>
-                        $900
+                        $700
                     </h6>
                     <br>
-                    <form action="carritore2.php">
-    <input type="submit" value="Agregar al carrito" />
-</form>
-</form>
-
-                    
+                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
                 </div>
             </div>
         </div>
