@@ -78,7 +78,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./juegos.php?consola=Play Station 4">Videojuegos</a>
                         <a class="dropdown-item" href="./juegos.php?consola=Accesorio PS">Accesorios</a>
-                        <a class="dropdown-item" href="./juegos.php?consola=Consola PS3">Consolas</a>
+                        <a class="dropdown-item" href="./juegos.php?consola=Consola PS4">Consolas</a>
                         <a class="dropdown-item">Articulos reparados</a>
                     </div>
                 </li>
