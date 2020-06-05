@@ -50,6 +50,9 @@
                 <h6>
                     <a href="./salir.php" >Cerrar sesion</a>
                 </h6>
+                <h6>
+                    <a href="../productos/vercarrito.php" >Ver carrito</a>
+                </h6>
             </div>
         </div>
     </header>
@@ -156,7 +159,7 @@
                         <p><?php echo '$'; ?> <?php echo $row ['Precio']; ?></p>
                         <p><?php echo $row ['Consola']; ?></p>
                         
-                        <a href="id=<?php echo $row ['Id_Producto']; ?>.php" class="btn btn-primary">Añadir al carrito</a>
+                        <a href="../productos/<?php echo $row ['Id_Producto']; ?>.php" class="btn btn-primary">Añadir al carrito</a>
                     </div>
                 </div>
 

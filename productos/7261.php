@@ -50,6 +50,9 @@
                     <h6>
                         <a href="./acceso/salir.php" >Cerrar sesion</a>
                     </h6>
+                    <h6>
+                    <a href="vercarrito.php" >Ver carrito</a>
+                </h6>
                 </div>
             </div>
         </header>
@@ -89,7 +92,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS3">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -102,7 +105,7 @@
                         <form action="" method="GET"></form>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox One">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio one">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio one">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox one">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -114,7 +117,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio 360">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio 360">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox 360">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -126,7 +129,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
-                            <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio Switch">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio Switch">Accesorios</a>
                             <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Switch">Consolas</a>
                             <a class="dropdown-item">Articulos reparados</a>
                         </div>
@@ -159,7 +162,8 @@
                         $700
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritojus4xbox.php">
+    <input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>

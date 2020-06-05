@@ -49,6 +49,9 @@
                 <h6>
                     <a href="./salir.php" >Cerrar sesion</a>
                 </h6>
+                <h6>
+                    <a href="../productos/vercarrito.php" >Ver carrito</a>
+                </h6>
             </div>
         </div>
     </header>

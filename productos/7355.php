@@ -50,90 +50,93 @@
                     <h6>
                         <a href="./acceso/salir.php" >Cerrar sesion</a>
                     </h6>
+                    <h6>
+                    <a href="vercarrito.php" >Ver carrito</a>
+                </h6>
                 </div>
             </div>
         </header>
     
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Todas las categorias
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../acceso/todosjuegos.php?ini=7000&fin=7800">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/accesorios.php?consola=Accesorio%">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/accesorios.php?consola=consola%">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    PS4
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 4">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS4">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    PS3
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio PS">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS3">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    XBOX One
-                </a>
-                <form action="" method="GET"></form>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox One">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio one">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox one">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    XBOX 360
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio 360">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox 360">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Nintendo Switch
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
-                    <a class="dropdown-item" href="../acceso/jurgos.php?consola=Accesorio Switch">Accesorios</a>
-                    <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Switch">Consolas</a>
-                    <a class="dropdown-item">Articulos reparados</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Todas las categorias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../acceso/todosjuegos.php?ini=7000&fin=7800">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/accesorios.php?consola=Accesorio%">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/accesorios.php?consola=consola%">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PS4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 4">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS4">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PS3
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Play Station 3">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio PS">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola PS3">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            XBOX One
+                        </a>
+                        <form action="" method="GET"></form>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox One">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio one">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox one">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            XBOX 360
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../acceso/juegos.php?consola=Xbox 360">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio 360">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Xbox 360">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nintendo Switch
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../acceso/juegos.php?consola=Nintendo Switch">Videojuegos</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Accesorio Switch">Accesorios</a>
+                            <a class="dropdown-item" href="../acceso/juegos.php?consola=Consola Switch">Consolas</a>
+                            <a class="dropdown-item">Articulos reparados</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container" id="contenejuegos" style="margin-top: 200px; margin-bottom: 200px;">
             <div class="row">
                 <div class="col">
@@ -159,7 +162,7 @@
                         $500
                     </h6>
                     <br>
-                    <button type="button" class="btn btn-dark">Agregar al Carrito</button>
+                    <form action="carritomarioysonic.php"><input type="submit" value="Agregar al carrito" />
                 </div>
             </div>
         </div>
