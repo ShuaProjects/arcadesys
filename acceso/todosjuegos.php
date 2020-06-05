@@ -1,4 +1,3 @@
-                
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUEGOS</title>
+    <title>Todas las categorias</title>
 </head>
 
 <body>
@@ -135,17 +134,15 @@
         </div>
     </nav>
     
-    
-
-<div class="container">
-
+    <h1></h1>
     <div class="row">
         <?php
             include "conexion.php";
 
             if($_GET){
-            $consola= $_GET['consola']; 
-            $query = "SELECT * FROM producto_arcade WHERE Consola='$consola'";
+            $prin=$_GET['ini'];
+            $fina=$_GET['fin'];
+            $query = "SELECT * FROM producto_arcade WHERE Id_Producto BETWEEN '$prin' and '$fina'";
             $resultado = $conecta->query($query);
             while($row = $resultado->fetch_assoc()) {
             ?>
