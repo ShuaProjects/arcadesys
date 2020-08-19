@@ -50,21 +50,21 @@ if(!empty($_POST)){
     <link rel="stylesheet" type="text/css" href="../estilos.css">
     <title>Document</title>
 </head>
-<body style="background-color:skyblue">
+<body class=bodys background="../img/linea.jpg" align="center" width="300">
     <section id="container">
 
     <form action="" method="post">
         <center>
             <div class="bienve">
             <h1>Bievenido al menu registrar</h1>
+            <div  class>
+            
             </div>
-            <div class="imagen">  
-                <img class="as" src="../img/regis.jp" align="center" alt="">
-        </div>
-        <p>
-            Id cliente:<br>
-            <input class="id" type="text" name="id_cliente" id="id_cliente">
-        </p>
+            
+            </div>
+<br>
+<br>
+<br>
         <p>
             Nombre: <br>
             <input class="nom"type="text" name="nombre" id="nombre"><br> 
